@@ -13,3 +13,6 @@ docker network create ネットワーク
 
 ### 指定したネットワークに接続したコンテナを起動
 docker container run --network ネットワーク イメージ
+
+### ネットワークを削除
+docker network rm ネットワーク
